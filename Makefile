@@ -1,4 +1,4 @@
-CXXFLAGS += -Wall -Wextra -std=c++11 -fpic -fstack-protector-strong -march=native -O2 -g
+CXXFLAGS += -Wall -Wextra -std=c++11 -fpic -fstack-protector-strong -O2 -g
 LDFLAGS += -shared
 
 all: libknxnet.a libknxnet.so
